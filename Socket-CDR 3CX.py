@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 import re
 
 # Configuração do servidor
-HOST = '10.233.30.109'
+HOST = 'addr'
 PORT = 9000
 
 # Caminhos dos arquivos
