@@ -4,10 +4,10 @@ import logging
 from datetime import datetime, timedelta, timezone
 import re
 
-HOST = '10.233.30.109'
+HOST = '192.168.10.100'
 PORT = 9000
 
-save_dir = r"C:\mac\3CX"
+save_dir = r"C:\3CX"
 os.makedirs(save_dir, exist_ok=True)
 
 tz_brasil = timezone(timedelta(hours=-3))
